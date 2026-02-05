@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <p>Gather user inputs using HTML forms</p>
+    <!-- form, label, input,   -->
+    <hr>
+    <h3>Application Form</h3>
+    <form action="https://www.google.com/">
+
+    <form action="/submit" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <label for="phone">Contact Number:</label><br>
+        <input type="number" id="phone" name="phone"><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass" required><br>
+
+        <label for="gen" >Gender:</label><br>
+        <select name="gen" id="gen" required>
+            <option>--- SELECT ---</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="o">Others</option>
+        </select>
+
+        <br><hr>
+        <label for="AppType">Application Type:</label><br>
+        <input type="radio" name="type" id="new">
+        <label for="new">New</label><br>
+        <input type="radio" name="type" id="old">
+        <label for="old">Old</label>
+
+        <br><hr>
+        <label for="proles">Preferred Roles</label> <br>
+        <input type="checkbox" name="dev" id="dev">
+        <label for="dev">Developer</label><br>
+        <input type="checkbox" name="admin" id="admin">
+        <label for="admin">Admin Staff</label><br>
+        <input type="checkbox" name="tr" id="tr">
+        <label for="tr">Trainee</label>
+        
+        <br><hr>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        
+
+    </form>
+
+</body>
+</html
