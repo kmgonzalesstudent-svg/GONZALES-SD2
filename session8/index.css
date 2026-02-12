@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+
+}
+
+.heading {
+    color: aqua;
+}
+.heading-size {
+    font-size: 67px;
+}
+
+.text-purple {
+    color: rgb(255, 255, 255);
+}
+
+.bg-purple {
+    background-color: rgb(255, 255, 255);
+}
